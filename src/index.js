@@ -8,7 +8,7 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   // production
   "docker.shinya.click": dockerHub,
-  "ghcr.shinya.click": "https://ghcr.io",
+  "ghcr.shinya.click": "https://ghcr.io"
 };
 
 function routeByHosts(host) {
